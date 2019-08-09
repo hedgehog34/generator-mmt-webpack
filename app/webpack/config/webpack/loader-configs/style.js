@@ -17,9 +17,10 @@ const sassLoaders = [
       parser: 'postcss-scss',
       plugins: [
         autoprefixer({
+          grid: 'on',
           browsers: [
             'last 2 versions',
-            'IE >= 9',
+            'IE >= 11',
             'safari >= 8'
           ]
         })
